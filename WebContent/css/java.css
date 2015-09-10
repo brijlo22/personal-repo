@@ -1,0 +1,71 @@
+#box{
+	width:130px;
+	height:50px;
+	border:1px solid black;
+	margin:0px auto;
+	float:left;
+}
+
+.shots-of-day-component-warpper {
+  max-width: 768px;
+  background-color: #eaeaea;
+  margin: 20px 0 0 20px;
+  text-align: center;
+}
+.shots-of-day-card-wrapper {
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  padding-left: 19px;
+  box-sizing: border-box;
+  padding-bottom: 6px;
+}
+.shots-of-day-card-wrapper > div {
+  width: 100%;
+  display: inline-block;
+  display: none;
+}
+.shots-of-day-card-wrapper > div:first-child {
+  display: inline-block;
+}
+.shots-of-day-card-image {
+  display: inline-block;
+  margin: 0 auto;
+}
+.button-container {
+  display: inline-block;
+  margin-right: 19px;
+  min-width: 30px;
+}
+.button-container .next {
+  width: 40%;
+  display: inline-block;
+}
+.button-container .prev {
+  width: 40%;
+  display: inline-block;
+}
+.show-item {
+  display: inline-block !important;
+}
+.hide-items {
+  display: none !important;
+}
+.shots-of-day-card-breadcrumbs {
+  display: inline-block;
+  padding-right: 22px;
+  margin-top: -25px;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+.breadcrumb-item {
+  background-color: #aaaaaa;
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  margin: 0 1px;
+  border-radius: 50%;
+}
+.breadcrumb-item:first-child {
+  background-color: #0b6a31;
+}
